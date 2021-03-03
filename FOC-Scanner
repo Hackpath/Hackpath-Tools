@@ -1,0 +1,68 @@
+#!/bin/bash
+#coded by Agus Hackpath
+# Friends OF Cyber × Greyhat School Of Hackers
+pkg install figlet -y
+pip2 install lolcat
+sleep 2s
+clear
+echo Cod3d By ./Agus Hackpath
+echo TOOLS FOR SCANNING SITE FROM FRIENDS OF CYBER | lolcat
+echo PRIV8 SCANNER TOOLS | lolcat
+read -p "Masukan Nick Anda: " nick
+        clear
+        figlet $nick | lolcat
+echo Welcome $nick Please Wait | lolcat
+sleep 5s
+        clear
+figlet SC4NN3R-TOOLS | lolcat
+echo Scanner Site From hackertarget.com | lolcat
+echo Cod3d By ./Agus Hackpath | lolcat
+echo FRIENDS OF CYBER | lolcat
+uname -a | lolcat
+date | lolcat
+        read -p "input target domain atau ip nya: " target
+figlet Reverse-IP | lolcat
+echo Please Wait... | lolcat
+        curl https://api.hackertarget.com/reverseiplookup/?q=$target >> R3VIP.txt
+        sleep 2s
+figlet Traceroute | lolcat
+echo Please Wait... | lolcat
+        curl https://api.hackertarget.com/mtr/?q=$target >> TRACER.txt
+        sleep 2s
+figlet WHOIS | lolcat
+echo Please Wait... | lolcat
+        curl https://api.hackertarget.com/whois/?q=$target >> Whois.txt
+        sleep 2s
+figlet DNS-LOOKUP | lolcat
+echo please Wait... | lolcat
+        curl https://api.hackertarget.com/dnslookup/?q=$target >> dnslookup.txt
+        sleep 2s
+figlet GeoIP-Lookup | lolcat
+echo Please Wait... | lolcat
+        curl https://api.hackertarget.com/geoip/?q=$target >> geoip.txt
+        sleep 2s
+figlet Reverse-Dns | lolcat
+echo Please Wait... | lolcat
+        curl https://api.hackertarget.com/reversedns/?q=$target >> revDNS.txt
+        sleep 2s
+figlet Nmap-Scan | lolcat
+echo Please Wait... | lolcat
+        curl https://api.hackertarget.com/nmap/?q=$target >> nMap.txt
+        sleep 2s
+figlet Subdomain Grabber | lolcat
+echo Please Wait... | lolcat
+        curl https://sonar.omnisint.io/subdomains/$target ==> SingleSubdo.txt
+clear
+figlet Done Bro Coded By ./Agus Hackpath | lolcat
+
+sleep 5s
+clear
+figlet No Recode Asu | lolcat
+echo Copyright2021_Coded_By./Agus Hackpath | lolcat
+echo From FRIENDS OF CYBER | lolcat
+echo Need More Tools Contact Author | lolcat
+echo Email : riobeatdownjr@gmail.com | lolcat
+echo WhataApp : +6281563826052 | lolcat
+echo EXPLOIT THE WEAKNESS AND CRASH THE SYSTEM | lolcat
+echo $nick Thanks For Using My Tools | lolcat
+echo Tools Yang Unlimited API Masi Belum Tersedia | lolcat
